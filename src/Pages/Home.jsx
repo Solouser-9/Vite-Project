@@ -6,10 +6,10 @@ const Home = () => {
   let nums = 200 */
   return (
     <div>
-      {/* <Navbar /* logo = "HomeLogo" *//> */}
-      {/* <Hero title = {section} num = {nums}/> */}
-      <Hero title= "Home"/>
-      </div>
+      {/* <Navbar logo="HomeLogo" /> */}
+      {/* <Hero title={section} num={nums} /> */}
+      <Hero title="Home" />
+    </div>
   )
 }
 

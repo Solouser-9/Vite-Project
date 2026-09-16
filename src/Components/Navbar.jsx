@@ -11,7 +11,7 @@ const Navbar = (/* {logo} */ {handleMode, mode}) => {
         <Link to = "/about"><li>About</li></Link>
         <Link to = "/contact"><li>Contact</li></Link>
         <Link to = "/faq"><li>Faq</li></Link>
-        <button onClick = {handleMode}>{mode ? "light" : "dark"}</button>
+        <button onClick = {handleMode} className= {mode ? "button light" : "button dark"}>{mode ? "light" : "dark"}</button>
       </ul>
     </div>
   )

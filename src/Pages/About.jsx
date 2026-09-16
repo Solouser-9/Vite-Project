@@ -4,8 +4,8 @@ import Hero from "../Components/Hero"
 const About = () => {
   return (
     <div>
-      {/* <Navbar /* logo = "AboutLogo" *//> */}
-      <Hero title = "About"/>
+      {/* <Navbar logo="AboutLogo" /> */}
+      <Hero title="About" />
     </div>
   )
 }

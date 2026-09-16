@@ -4,8 +4,8 @@ import Hero from "../Components/Hero"
 const Faq = () => {
   return (
     <div>
-      {/* <Navbar /* logo = "FaqLogo" *//> */}
-      <Hero title = "FAQ"/>
+      {/* <Navbar logo="FaqLogo" /> */}
+      <Hero title="FAQ" />
     </div>
   )
 }

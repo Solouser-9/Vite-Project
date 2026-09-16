@@ -4,8 +4,8 @@ import Hero from "../Components/Hero"
 const Contact = () => {
   return (
     <div>
-      {/* <Navbar /* logo = "ContactLogo" *//> */}
-      <Hero title = "Contact"/>
+      {/* <Navbar logo="ContactLogo" /> */}
+      <Hero title="Contact" />
     </div>
   )
 }
