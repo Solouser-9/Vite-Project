@@ -33,7 +33,7 @@ const Home = () => {
       <button onClick = {handleShow} > { show ? <FaMehRollingEyes size = "20px"/> : <FaRegMehRollingEyes size = "20px"/>} </button>
       <div>
         <h1 ref = {headingRef}></h1>
-        <button onClick={handleClick}></button>
+        <button onClick={handleClick}>Click me</button>
       </div>
       <div>
         <input 
