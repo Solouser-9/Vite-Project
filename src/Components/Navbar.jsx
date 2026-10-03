@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import { IoIosSunny } from "react-icons/io";
+import { FaMoon } from "react-icons/fa";
 import "./Navbar.css"
 
 const Navbar = (/* {logo} */ {handleMode, mode}) => {
@@ -11,7 +13,8 @@ const Navbar = (/* {logo} */ {handleMode, mode}) => {
         <Link to = "/about"><li>About</li></Link>
         <Link to = "/contact"><li>Contact</li></Link>
         <Link to = "/faq"><li>Faq</li></Link>
-        <button onClick = {handleMode} className= {mode ? "button light" : "button dark"}>{mode ? "light" : "dark"}</button>
+        <Link to = "/page"><li>Page</li></Link>
+        <button onClick = {handleMode} className= {mode ? "button light" : "button dark"}>{mode ? <FaMoon /> : <IoIosSunny /> }</button>
       </ul>
     </div>
   )

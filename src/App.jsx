@@ -4,6 +4,9 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Faq from "./Pages/Faq"
+import Page from "./Pages/Page"
+import Login from "./Pages/Login"
+import Increament from "./Pages/Increament"
 import Navbar from "./Components/Navbar"
 import './App.css'
 
@@ -24,6 +27,9 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/faq" element={<Faq/>} />
+        <Route path="/page" element={<Page/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/increament" element={<Increament/>}/>
       </Routes>
       </div>
     </Router>
